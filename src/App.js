@@ -40,11 +40,11 @@ export default function App() {
   }
 
   return (
-   
+
 
     <div className="App">
-      
-     <Firstpage/>
+
+      <Firstpage />
 
       {/* <img
         src={Sheep}
@@ -60,7 +60,7 @@ export default function App() {
         alt="Wolf"
       />
 
- 
+
       <div class="container">
         <div class="loader">
           <span></span>
