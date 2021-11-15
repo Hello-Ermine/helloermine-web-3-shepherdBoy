@@ -5,11 +5,21 @@ import App from './App';
 import Firstpage from './firstpage';
 import reportWebVitals from './reportWebVitals';
 import Pagetwo from './twopage';
+import Pagethree from './threepage';
+import Pagefour from './fourpage';
+import Pagefive from './fivepage';
+import Pagesix from './sixpage';
+import Pageseven from './sevenpage';
 
 ReactDOM.render(
   <React.StrictMode>
    <Firstpage/>
     <Pagetwo/>
+    <Pagethree/>
+    <Pagefour/>
+    <Pagefive/>
+    <Pagesix/>
+    <Pageseven/>
   </React.StrictMode>,
   document.getElementById('root')
 );

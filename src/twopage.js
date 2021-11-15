@@ -1,7 +1,7 @@
 
 import styled from  'styled-components' ;
 import { Page } from './firstpage';
-import page2 from './page2.jpg'
+import page2 from './page2.jpg';
 
 
 
