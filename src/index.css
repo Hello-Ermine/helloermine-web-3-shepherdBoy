@@ -1,7 +1,8 @@
 /* main container */
-body{
+body {
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .container {
@@ -12,8 +13,6 @@ body{
   position: absolute;
   left: 0%;
   z-index: -1;
- 
-  
 }
 
 .loader {
@@ -26,10 +25,8 @@ body{
   height: 80px;
   margin: -280px 40px 54px -34px;
   background: url("leaf.png");
-  background-size: 50% ;
+  background-size: 50%;
   background-repeat: no-repeat;
-  
- 
 
   animation: loader 10s infinite linear;
   -moz-animation: loader 10s infinite linear;
@@ -108,4 +105,27 @@ body{
 
     transform: translate(150px, 800px) rotateZ(360deg);
   }
+}
+/* scroll bar*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fafafa;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e3e3e3;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b5cef5;
 }

@@ -42,11 +42,16 @@ export default function App() {
   }
 
   return (
-   
+
 
     <div className="App">
+
       <Navbar/>
      <Firstpage/>
+
+
+      <Firstpage />
+
 
 
       {/* <img
@@ -63,7 +68,7 @@ export default function App() {
         alt="Wolf"
       />
 
- 
+
       <div class="container">
         <div class="loader">
           <span></span>
