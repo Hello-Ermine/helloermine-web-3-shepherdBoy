@@ -6,6 +6,8 @@ import React, { useState, useEffect } from 'react';
 import Sheep from './sheepp.png'
 import Wolf from './wolf.png'
 import Firstpage from './firstpage'
+import Navbar from './nav.js';
+
 
 /*import bg1 from './bg1.png'
 import styled from  'styled-components' ;*/
@@ -44,7 +46,13 @@ export default function App() {
 
     <div className="App">
 
+      <Navbar/>
+     <Firstpage/>
+
+
       <Firstpage />
+
+
 
       {/* <img
         src={Sheep}
