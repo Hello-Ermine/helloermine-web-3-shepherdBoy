@@ -5,11 +5,14 @@ import App from './App';
 import Firstpage from './firstpage';
 import reportWebVitals from './reportWebVitals';
 import Pagetwo from './twopage';
+import Navbar from './nav.js';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Navbar/>
    <Firstpage/>
     <Pagetwo/>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
