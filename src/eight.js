@@ -10,7 +10,7 @@ height: 252px;
 left: 45%;
 top: 38%;
 
-&:hover{
+&:hover sheeprun{
 filter: drop-shadow(1px 8px 54px #FDC401);
 
 }
