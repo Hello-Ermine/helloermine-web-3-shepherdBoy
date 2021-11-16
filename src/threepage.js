@@ -59,7 +59,7 @@ function Pagethree(){
            
 
 
-       <Page bg={bg3} height="120vh">
+       <Page bg={bg3} height="130vh">
         <Woodthree wood={Wood3}>
             <h1>And the villagers came out to meet him, and some of them stopped with him for a consideration time. This pleased the boy so much</h1>
         </Woodthree>
