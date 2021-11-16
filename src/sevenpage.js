@@ -5,7 +5,7 @@ import bg7 from './bg7.png';
 function Pageseven(){
     return(
         <div>
-        <Page bg={bg7} height="130vh"/>
+        <Page bg={bg7} height="120vh"/>
  
         </div>
  

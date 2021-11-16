@@ -9,34 +9,31 @@ import Wood3 from  './wood3.png';
 
 const Boytwo = styled.img`
 position: absolute;
-top: 100%;
-padding-top:70em;
-padding-left: 36em;
-width:350px; 
-height:350px;
+top: 320%;
+width: 520px;
+height: 498px;
+left: 438px;
 `
 const Girlone = styled.img`
 position: absolute;
-top: 100%;
-padding-top:60em;
-padding-left: 4em;
-width:350px; 
-height:350px;
+top: 295%;
+width: 500px;
+height: 500px;
+left: -16px;
 `
 const Boythree = styled.img`
 position: absolute;
-top: 100%;
-padding-top:71.5em;
-padding-left: 10em;
-width:300px; 
-height:300px;
+top: 328%;
+width: 406px;
+height: 406px;
+left: 148px;
 `
 const Boyone = styled.img`
 position: absolute;
-top: 100%;
-padding-top:68em;
-width:350px; 
-height:350px;
+left: -5%;
+top: 320%;
+width: 493px;
+height: 493px;
 `
 const Woodthree = styled.div`
  background-image: ${props => `url(${props.wood})`};
@@ -62,7 +59,7 @@ function Pagethree(){
            
 
 
-       <Page bg={bg3} height="100vh">
+       <Page bg={bg3} height="120vh">
         <Woodthree wood={Wood3}>
             <h1>And the villagers came out to meet him, and some of them stopped with him for a consideration time. This pleased the boy so much</h1>
         </Woodthree>
