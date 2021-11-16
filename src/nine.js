@@ -7,7 +7,7 @@ function Pagenine(){
     return(
         <div className="contain2">
         
-  
+    <h1>nine</h1>
         </div>
  
     )
