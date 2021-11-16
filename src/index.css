@@ -27,6 +27,7 @@ body {
   min-height: 800px;
   position: absolute;
   left: 30%;
+  z-index: 99;
   
  
 }
