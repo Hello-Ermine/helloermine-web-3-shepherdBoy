@@ -11,11 +11,13 @@ import Pagefour from './fourpage';
 import Pagefive from './fivepage';
 import Pagesix from './sixpage';
 import Pageseven from './sevenpage';
+import Banner from './banner';
 
 
 ReactDOM.render(
   <React.StrictMode>
     <Navbar/>
+    <Banner/>
    <Firstpage/>
     <Pagetwo/>
     <Pagethree/>
