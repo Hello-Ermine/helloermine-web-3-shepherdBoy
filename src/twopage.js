@@ -10,35 +10,31 @@ import Wood2 from './wood2.png';
 
 const Girlone = styled.img`
 position: absolute;
-top: 100%;
-padding-top:38em;
-padding-left:22em;
+top: 263%;
+left: 360px;
 width:300px; 
 height:300px;
 `
 const Boytwo = styled.img`
 position: absolute;
-top: 100%;
-padding-top:31em;
-padding-left: 40em;
-width:350px; 
-height:350px;
+top: 244%;
+width: 406px;
+height: 406px;
+left: 656px;
 `
 const Boyone = styled.img`
 position: absolute;
-top: 100%;
-padding-top:35em;
-padding-left: 14em;
-width:350px; 
-height:350px;
+top: 250%;
+width: 383px;
+height: 418px;
+left: 200px;
 `
 const Boythree = styled.img`
 position: absolute;
-top: 100%;
-padding-top:38em;
-padding-left: 29em;
-width:230px; 
-height:230px;
+top: 253%;
+width: 305px;
+height: 305px;
+left: 461px;
 `
 const Woodtwo = styled.div`
  background-image: ${props => `url(${props.wood})`};

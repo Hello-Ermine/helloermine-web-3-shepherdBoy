@@ -6,11 +6,9 @@ import Wood4 from './wood4.png';
 
 const Boytwo = styled.img`
 position: absolute;
-top: 100%;
-padding-top:130.5em;
-padding-left: 4.5em;
-width:400px; 
-height:400px;
+top: 473%;
+width: 520px;
+height: 520px;
 `
 const Woodfour = styled.div`
  background-image: ${props => `url(${props.wood})`};

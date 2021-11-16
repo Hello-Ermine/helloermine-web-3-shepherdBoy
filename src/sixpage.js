@@ -10,35 +10,31 @@ import Wood6 from './wood6.png';
 
 const Boytwo = styled.img`
 position: absolute;
-top: 100%;
-padding-top:257.5em;
-padding-left: 47.5em;
-width:350px; 
-height:350px;
+top: 740%;
+width: 373px;
+height: 373px;
+left: 695px;
 `
 const Girlone = styled.img`
 position: absolute;
-top: 100%;
-padding-top:257em;
-padding-left: 8em;
-width:350px; 
-height:350px;
+top: 744%;
+width: 315px;
+height: 315px;
+left: 151px;
 `
 const Boythree = styled.img`
 position: absolute;
-top: 100%;
-padding-top:256.5em;
-padding-left: 28em;
-width:300px; 
-height:300px;
+top: 744%;
+width: 267px;
+height: 282px;
+left: 453px;
 `
 const Boyone = styled.img`
 position: absolute;
-top: 100%;
-padding-top:259em;
-padding-left: 20em;
-width:350px; 
-height:350px;
+top: 743%;
+width: 353px;
+height: 353px;
+left: 306px;
 `
 const Woodsix = styled.div`
  background-image: ${props => `url(${props.wood})`};
