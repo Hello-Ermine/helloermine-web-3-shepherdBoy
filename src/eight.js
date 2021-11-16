@@ -13,7 +13,7 @@ top: 38%;
 
 
 
-&:hover sheeprun{
+:hover {
 
 filter: drop-shadow(1px 8px 54px #FDC401);
 cursor: pointer;

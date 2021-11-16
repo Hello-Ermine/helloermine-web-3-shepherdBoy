@@ -16,7 +16,7 @@ h1{
     margin: 0;
 }
 
-:hover{
+.sheeprun:hover{
  
   filter: drop-shadow(1px 8px 54px #FDC401);
 
