@@ -1,8 +1,32 @@
-.navbar{
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #02798C;
+  }
+  
+  li {
     display: flex;
     justify-content: space-around;
+    float: right;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color:#02798C;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  li a {
+    display: flex;
     color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
     
-}
+    background:linear-gradient(#BA762B, #F5BD68, #ffffff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }

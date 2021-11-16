@@ -16,11 +16,12 @@ export const Page = styled.div`
  background-position:center bottom;
  padding: 0;
  margin: 0;
+ 
 
 `
 const Sleep = styled.img`
 position: absolute;
-top: 145%;
+top: 165%;
 width:200px; 
 height:200px;
 `

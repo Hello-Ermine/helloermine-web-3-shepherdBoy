@@ -5,9 +5,14 @@ import './nav.css'
 function Navbar(){
     return(
         <div className="navbar">
-         <h1>Member</h1>
-         <h1>Story</h1>
-         <h1>Moral</h1>
+           
+<ul>
+  <li><a class="active" href="#home">Member</a></li>
+  <li><a href="#news">Story</a></li>
+  <li><a href="#contact">Moral</a></li>
+  
+</ul>
+         
         </div>
     )
 }
