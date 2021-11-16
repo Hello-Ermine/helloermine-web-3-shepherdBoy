@@ -3,10 +3,13 @@ import './banner.css'
 import lg from'./lg1.png'
 
 const Logo = styled.img`
-background-image: ${props => `url(${props.logo})`};
 width: 794px;
 height: 327px;
 position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+
 `
 
 
@@ -16,7 +19,7 @@ position: absolute;
 function banner(){
     return(
         <div className="banner">
-            <Logo logo={lg} />
+            <Logo src={lg} />
         </div>
     )
 }
