@@ -5,7 +5,7 @@ import './nine.css'
 
 function Pagenine(){
     return(
-        <div className="contain">
+        <div className="contain2">
         
   
         </div>
