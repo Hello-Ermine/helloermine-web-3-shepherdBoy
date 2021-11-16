@@ -7,6 +7,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #02798C;
+    
   }
   
   li {
@@ -15,6 +16,7 @@ ul {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.5em;
     text-align: center;
+    
   }
   
   li a {

@@ -20,8 +20,10 @@ function banner(){
     return(
         <div className="banner">
             <Logo src={lg} />
+            
         </div>
-    )
+        
+    );
 }
 
 
