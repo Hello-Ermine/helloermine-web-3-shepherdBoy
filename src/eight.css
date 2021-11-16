@@ -16,7 +16,7 @@ h1{
     margin: 0;
 }
 
- li a:hover{
+:hover{
  
   filter: drop-shadow(1px 8px 54px #FDC401);
 
