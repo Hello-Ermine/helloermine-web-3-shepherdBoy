@@ -5,9 +5,10 @@ import './ten.css'
 
 function Pageten(){
     return(
-        <div className="contain3">
         
-     <h1>ten</h1>
+        <div className="contain3" id="member">
+        
+     <h1>Member</h1>
         </div>
  
     )

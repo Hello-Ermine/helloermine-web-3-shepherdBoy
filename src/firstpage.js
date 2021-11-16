@@ -43,7 +43,7 @@ const Wood = styled.div`
 
 function Pageone(){
     return(
-     <div>   
+     <div id="story">   
     <Sleep src={sleep2}  />
     
 
