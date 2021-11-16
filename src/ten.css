@@ -1,10 +1,13 @@
 .contain3{
-    width: 100vw;
   
     margin: 0;
-    height: 250px;
+    height: 120vh;
     background-color: #A5DAE2;
     position: relative;
+    z-index: -1;
+    background-position:center bottom;
+    padding: 0;
+    margin: 0;
 }
 h1{
     padding: 0;
