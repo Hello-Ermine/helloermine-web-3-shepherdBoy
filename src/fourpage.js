@@ -13,13 +13,13 @@ height: 520px;
 const Woodfour = styled.div`
  background-image: ${props => `url(${props.wood})`};
  background-repeat: no-repeat;
- width:421px;
- height:166px ;
+ width:423px;
+ height:181px ;
  background-size: contain;
  z-index: +1;
  position: absolute;
  top: 35%;
- right: 10%;
+ right: 15%;
  
 `
 

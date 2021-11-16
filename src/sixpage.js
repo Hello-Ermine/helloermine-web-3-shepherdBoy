@@ -39,13 +39,13 @@ left: 306px;
 const Woodsix = styled.div`
  background-image: ${props => `url(${props.wood})`};
  background-repeat: no-repeat;
- width:487px;
- height:392px ;
+ width: 487px;
+height: 392px;
  background-size: contain;
  z-index: +1;
  position: absolute;
- top: 9%;
- right: 39%;
+ top: 12%;
+ right: 45.5%;
  
 `
 function Pagesix(){

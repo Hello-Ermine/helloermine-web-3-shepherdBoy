@@ -38,13 +38,13 @@ height: 493px;
 const Woodthree = styled.div`
  background-image: ${props => `url(${props.wood})`};
  background-repeat: no-repeat;
- width:421px;
- height:166px ;
+ width: 496px;
+ height: 213px;
  background-size: contain;
  z-index: +1;
  position: absolute;
  top: 65%;
- right: 68%;
+ right: 65%;
  
 `
 

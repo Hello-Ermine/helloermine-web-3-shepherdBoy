@@ -39,13 +39,14 @@ left: 461px;
 const Woodtwo = styled.div`
  background-image: ${props => `url(${props.wood})`};
  background-repeat: no-repeat;
- width:421px;
- height:166px ;
+ width: 424px;
+ height: 135px;
+
  background-size: contain;
  z-index: +1;
  position: absolute;
- top: 10%;
- right: 45%;
+ top: 13%;
+ right: 50%;
  
 `
 

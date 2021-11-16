@@ -6,13 +6,13 @@ import Wood5 from './wood5.png'
 const Woodfive = styled.div`
  background-image: ${props => `url(${props.wood})`};
  background-repeat: no-repeat;
- width:421px;
- height:166px ;
+ width: 486px;
+ height: 155px;
  background-size: contain;
  z-index: +1;
  position: absolute;
- top: 35%;
- right: 20%;
+ top: 33%;
+ right: 23.5%;
  
 `
 function Pagefive(){
