@@ -12,31 +12,31 @@ import './twopage.css'
 
 const Girlone = styled.img`
 position: absolute;
-top: 259%;
-left: 365px;
-width:300px; 
-height:300px;
+top: 262%;
+left: 530px;
+width: 329px;
+height: 329px;
 `
 const Boytwo = styled.img`
 position: absolute;
-top: 244%;
+top: 253%;
 width: 406px;
 height: 406px;
-left: 656px;
+left: 900px;
 `
 const Boyone = styled.img`
 position: absolute;
-top: 245%;
+top: 258%;
 width: 383px;
 height: 418px;
-left: 220px;
+left: 354px;
 `
 const Boythree = styled.img`
 position: absolute;
-top: 255%;
+top: 260%;
 width: 305px;
 height: 305px;
-left: 448px;
+left: 630px;
 `
 const Woodtwo = styled.div`
  background-image: ${props => `url(${props.wood})`};
@@ -47,22 +47,22 @@ const Woodtwo = styled.div`
  background-size: contain;
  z-index: +1;
  position: absolute;
- top: 23%;
+ top: 17%;
  right: 50%;
 `
 const Wolfeatone = styled.img`
 position: absolute;
-top: 213%;
+top: 225%;
 width: 479px;
 height: 433.58px;
-left: 525px;
+left: 775px;
 `
 const Tableone = styled.img`
 position: absolute;
-top: 212%;
+top: 225%;
 width: 345.09px;
 height: 345.09px;
-left: 565px;
+left: 820px;
 
 `
 
@@ -76,7 +76,7 @@ function Pagetwo(){
       <Tableone src={Table1}/>
       <Wolfeatone src={Wolfeat1}/>
      
-    <Page bg={page2} height="120vh" >
+    <Page bg={page2} height="130vh" >
 
     <Woodtwo wood={Wood2}>
             <h1 id="s2">He rushed down towards the village calling out Wolf, Wolf</h1>

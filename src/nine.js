@@ -16,9 +16,9 @@ filter: drop-shadow(1px 4px 5px black);
 const Boytwo = styled.img`
 position: absolute;
 top: 47%;
-
 width: 500px;
 height: 500px;
+left: 10%;
 
 `
 

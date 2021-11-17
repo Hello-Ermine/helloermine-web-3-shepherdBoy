@@ -10,29 +10,28 @@ import './threepage.css'
 
 const Boytwo = styled.img`
 position: absolute;
-top: 320%;
+top: 350%;
 width: 520px;
 height: 498px;
-left: 400px;
+left: 650px;
 `
 const Girlone = styled.img`
 position: absolute;
-top: 295%;
+top: 326%;
 width: 500px;
 height: 500px;
-left: -16px;
+left: 58px;
 `
 const Boythree = styled.img`
 position: absolute;
-top: 328%;
+top: 357%;
 width: 406px;
 height: 406px;
-left: 148px;
+left: 220px;
 `
 const Boyone = styled.img`
 position: absolute;
-left: -5%;
-top: 320%;
+top: 348%;
 width: 493px;
 height: 493px;
 `
@@ -60,7 +59,7 @@ function Pagethree(){
            
 
 
-       <Page bg={bg3} height="130vh">
+       <Page bg={bg3} height="140vh">
         <Woodthree wood={Wood3}>
             <h1 id="s3">And the villagers came out to meet him, and some of them stopped with him for a consideration time. This pleased the boy so much</h1>
         </Woodthree>

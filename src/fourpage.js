@@ -7,9 +7,10 @@ import './four.css'
 
 const Boytwo = styled.img`
 position: absolute;
-top: 479%;
+top: 498%;
 width: 520px;
 height: 520px;
+left: 90px;
 `
 const Woodfour = styled.div`
  background-image: ${props => `url(${props.wood})`};
