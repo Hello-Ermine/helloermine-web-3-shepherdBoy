@@ -6,6 +6,7 @@ import boy2 from './boy2.png';
 import boy3 from './boy3.png';
 import girl1 from './girl1.png';
 import Wood3 from  './wood3.png';
+import './threepage.css'
 
 const Boytwo = styled.img`
 position: absolute;
@@ -61,7 +62,7 @@ function Pagethree(){
 
        <Page bg={bg3} height="130vh">
         <Woodthree wood={Wood3}>
-            <h1>And the villagers came out to meet him, and some of them stopped with him for a consideration time. This pleased the boy so much</h1>
+            <h1 id="s3">And the villagers came out to meet him, and some of them stopped with him for a consideration time. This pleased the boy so much</h1>
         </Woodthree>
           </Page>
             

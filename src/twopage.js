@@ -1,4 +1,3 @@
-
 import styled from  'styled-components' ;
 import { Page } from './firstpage';
 import page2 from './page2.jpg';
@@ -7,6 +6,9 @@ import boy3 from './boy3.2.png';
 import boy2 from './boy2.1.png';
 import girl1 from './girl2.1.png';
 import Wood2 from './wood2.png';
+import Wolfeat1 from './wolfeat1.png';
+import Table1 from './table1.png';
+import './twopage.css'
 
 const Girlone = styled.img`
 position: absolute;
@@ -45,9 +47,23 @@ const Woodtwo = styled.div`
  background-size: contain;
  z-index: +1;
  position: absolute;
- top: 13%;
+ top: 23%;
  right: 50%;
- 
+`
+const Wolfeatone = styled.img`
+position: absolute;
+top: 213%;
+width: 479px;
+height: 433.58px;
+left: 525px;
+`
+const Tableone = styled.img`
+position: absolute;
+top: 212%;
+width: 345.09px;
+height: 345.09px;
+left: 565px;
+
 `
 
 function Pagetwo(){
@@ -57,10 +73,13 @@ function Pagetwo(){
       <Boytwo src={boy2}/>
       <Boythree src={boy3}/>
       <Girlone src={girl1}/>
+      <Tableone src={Table1}/>
+      <Wolfeatone src={Wolfeat1}/>
+     
     <Page bg={page2} height="120vh" >
 
     <Woodtwo wood={Wood2}>
-            <h1>He rushed down towards the village calling out Wolf, Wolf</h1>
+            <h1 id="s2">He rushed down towards the village calling out Wolf, Wolf</h1>
         </Woodtwo>
           </Page>
        </div>
