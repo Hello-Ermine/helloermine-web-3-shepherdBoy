@@ -27,7 +27,7 @@ export const Page = styled.div`
 `
 const Sleep = styled.img`
 position: absolute;
-top: 165%;
+top: 160%;
 width:200px; 
 height:200px;
 `
@@ -39,7 +39,7 @@ const Wood = styled.div`
  background-size: contain;
  z-index: +1;
  position: absolute;
- top: 15%;
+ top: 20%;
  right: 7%;
 `
 
@@ -50,11 +50,7 @@ const Wood = styled.div`
 function Pageone(){
     return(
      <div id="story">   
-    <Sleep src={sleep2} 
-          data-aos="fade-left"
-          data-aos-offset="400"
-          data-aos-easing="ease-in-sine"
-          data-aos-duration="800" />
+    <Sleep src={sleep2}  />
     
 
     <Page bg={bg1} height="122vh">

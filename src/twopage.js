@@ -7,6 +7,7 @@ import boy3 from './boy3.2.png';
 import boy2 from './boy2.1.png';
 import girl1 from './girl2.1.png';
 import Wood2 from './wood2.png';
+import './twopage.css'
 
 const Girlone = styled.img`
 position: absolute;
@@ -45,7 +46,7 @@ const Woodtwo = styled.div`
  background-size: contain;
  z-index: +1;
  position: absolute;
- top: 13%;
+ top: 23%;
  right: 50%;
  
 `
@@ -60,7 +61,7 @@ function Pagetwo(){
     <Page bg={page2} height="120vh" >
 
     <Woodtwo wood={Wood2}>
-            <h1>He rushed down towards the village calling out Wolf, Wolf</h1>
+            <h1 id="s2">He rushed down towards the village calling out Wolf, Wolf</h1>
         </Woodtwo>
           </Page>
        </div>
