@@ -28,7 +28,7 @@ ReactDOM.render(
     <Pagefive/>
     <Pagesix/>
     <Pageseven/>
-    <Pageeight/>
+   
     <Pagenine/>
     <Pageten/>
 
