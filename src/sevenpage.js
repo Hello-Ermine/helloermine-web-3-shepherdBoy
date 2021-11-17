@@ -5,6 +5,9 @@ import bg7 from './bg7.png';
 import Sheep from './sheepp.png'
 import Wolf from './wolf.png'
 import './index.css'
+import './seven.css'
+
+
 
 
 function Pageseven(){
@@ -33,17 +36,19 @@ function Pageseven(){
         <Page bg={bg7} height="120vh"/>
  
         <div class="container">
-            <div className="sheep"> 
-            {sheeps}
-            </div>
-             <div>
-             <img
+        <img
                src={Wolf}
                style={{ display: 'fixed', width: '150px', cursor: 'pointer' }}
                onClick={handleDelete}
-               alt="Wolf" id="wolff"
+               alt="Wolf" className="wolf"
              />
-             </div>
+            <div className="sheep"> 
+            
+            {sheeps}
+            </div>
+             
+            
+             
        
        </div>
           
