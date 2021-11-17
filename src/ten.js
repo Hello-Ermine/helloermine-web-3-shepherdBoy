@@ -50,6 +50,7 @@ const pageTen2 = () => {
             </div>
             <div style={{ width: "100vw", height: "200px", overflow: "hidden", display: "flex", alignItems: "flex-end" }} >
                 <img src={fence} />
+                <img src={fence} />
             </div>
         </div>
     )
