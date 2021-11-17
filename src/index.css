@@ -35,7 +35,7 @@ body {
 }
 
 .loader {
-  top: 810%;
+  top: 815%;
   text-align: center;
   z-index: -1;
   position: absolute;
