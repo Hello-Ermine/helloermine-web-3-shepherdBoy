@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap');
 .contain3 {
   margin: 0;
   height: 120vh;
@@ -12,7 +13,8 @@
 h1 {
   padding: 5%;
 
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: 'Balsamiq Sans', cursive;
+  text-shadow: 1px 2px 8px black;
   margin: 0;
   text-align: center;
   color: black;
@@ -69,4 +71,39 @@ h1 {
   .subText {
     font-size: 0.75rem;
   }
+}
+
+h3,h2{
+  font-family: 'Balsamiq Sans', cursive;
+
+}
+.aomsin:hover{
+  filter: drop-shadow(1px 2px 20px #FDC401);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.gift:hover{
+  filter: drop-shadow(1px 2px 20px #FDC401);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.fah:hover{
+  filter: drop-shadow(1px 2px 20px #FDC401);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.bom:hover{
+  filter: drop-shadow(1px 2px 20px #FDC401);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.boat:hover{
+  filter: drop-shadow(1px 2px 20px #FDC401);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.toey:hover{
+  filter: drop-shadow(1px 2px 20px #FDC401);
+    cursor: pointer;
+    transition: 0.3s;
 }

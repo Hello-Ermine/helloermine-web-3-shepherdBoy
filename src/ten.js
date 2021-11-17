@@ -19,32 +19,32 @@ const pageTen2 = () => {
             <div id="gridthing" style={{ display: "grid", width: "97vw" }}  >
                 <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
                     <h3> AOMSIN </h3>
-                    <img src={aomsin} style={{ objectFit: "cover", width: "100%" }} />
+                    <img src={aomsin} style={{ objectFit: "cover", width: "100%" }} className="aomsin" />
                     <h2 className="subText" > WEB DESIGN </h2>
                 </div>
                 <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
                     <h3> GIFT </h3>
-                    <img src={gift} style={{ objectFit: "cover", width: "100%" }} />
+                    <img src={gift} style={{ objectFit: "cover", width: "100%" }} className="gift" />
                     <h2 className="subText" > WEB DESIGN </h2>
                 </div>
                 <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
                     <h3> FAH </h3>
-                    <img src={fah} style={{ objectFit: "cover", width: "100%" }} />
+                    <img src={fah} style={{ objectFit: "cover", width: "100%" }}  className="fah"/>
                     <h2 className="subText"> FRONT END </h2>
                 </div>
                 <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
                     <h3> BOM </h3>
-                    <img src={bom} style={{ objectFit: "cover", width: "100%" }} />
+                    <img src={bom} style={{ objectFit: "cover", width: "100%" }}  className="bom"/>
                     <h2 className="subText"> FRONT END </h2>
                 </div>
                 <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
                     <h3> BOAT </h3>
-                    <img src={boat} style={{ objectFit: "cover", width: "100%" }} />
+                    <img src={boat} style={{ objectFit: "cover", width: "100%" }} className="boat"/>
                     <h2 className="subText"> FRONT END </h2>
                 </div>
                 <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
                     <h3> TOEY </h3>
-                    <img src={toey} style={{ objectFit: "cover", width: "100%" }} />
+                    <img src={toey} style={{ objectFit: "cover", width: "100%" }} className="toey"/>
                     <h2 className="subText"> INFRASTRUCTURE </h2>
                 </div>
             </div>
