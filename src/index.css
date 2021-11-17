@@ -149,3 +149,19 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #b5cef5;
 }
+
+.hide-md {
+}
+
+@media (max-width: 575.98px) {
+  .hide-md {
+    display: hidden;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hide-md {
+    display: hidden;
+    opacity: 0;
+  }
+}
