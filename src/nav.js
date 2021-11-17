@@ -1,10 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect, useState } from 'react';
 import './nav.css'
 import NavBarLink from './NavBarLink'
 
 
 
 function Navbar() {
+
+
+  // useEffect(() => {
+  //   console.log(path)
+  // }, [path])
+
   return (
     <div className="navbar">
 

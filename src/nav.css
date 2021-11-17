@@ -31,13 +31,13 @@ li {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-text-fill-color: transparent;
 }
 .bg:hover {
   background-size: 500px;
   color: #ba762b;
 }
-/* .bg:visited {
+.bg-isonselected {
+  font-size: 32.1px;
+  text-decoration: none;
   color: #ba762b;
-  
-} */
+}
