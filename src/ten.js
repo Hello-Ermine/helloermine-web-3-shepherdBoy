@@ -38,7 +38,7 @@ const pageTen2 = () => {
                     
                     <h2 className="subText"> FRONT END </h2>
                 </div></a>
-                <a href="https://www.facebook.com/boatboat2545" target="_blank"> <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
+                <a href="https://www.instagram.com/uuuuuu_ou/" target="_blank"> <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
                     <h3> BOAT </h3>
                     <img src={boat} style={{ objectFit: "cover", width: "100%" }} className="boat"/>
                     <h2 className="subText"> FRONT END </h2>
