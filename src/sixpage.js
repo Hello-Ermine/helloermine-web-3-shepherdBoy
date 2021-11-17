@@ -11,31 +11,31 @@ import './six.css'
 
 const Boytwo = styled.img`
 position: absolute;
-top: 740%;
+top: 745%;
 width: 373px;
 height: 373px;
 left: 695px;
 `
 const Girlone = styled.img`
 position: absolute;
-top: 744%;
+top: 752%;
 width: 315px;
 height: 315px;
-left: 151px;
+left: 145px;
 `
 const Boythree = styled.img`
 position: absolute;
-top: 744%;
+top: 749%;
 width: 267px;
 height: 282px;
 left: 453px;
 `
 const Boyone = styled.img`
 position: absolute;
-top: 743%;
+top: 753%;
 width: 353px;
 height: 353px;
-left: 306px;
+left: 315px;
 `
 const Woodsix = styled.div`
  background-image: ${props => `url(${props.wood})`};
@@ -46,7 +46,7 @@ height: 266px;
  z-index: +1;
  position: absolute;
  top: 22%;
- right: 40%;
+ right: 10%;
  
 `
 function Pagesix(){

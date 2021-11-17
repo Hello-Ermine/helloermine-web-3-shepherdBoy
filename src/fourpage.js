@@ -7,7 +7,7 @@ import './four.css'
 
 const Boytwo = styled.img`
 position: absolute;
-top: 473%;
+top: 479%;
 width: 520px;
 height: 520px;
 `

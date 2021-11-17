@@ -13,7 +13,7 @@ position: absolute;
 top: 320%;
 width: 520px;
 height: 498px;
-left: 438px;
+left: 400px;
 `
 const Girlone = styled.img`
 position: absolute;

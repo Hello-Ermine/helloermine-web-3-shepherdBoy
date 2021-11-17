@@ -39,7 +39,7 @@ const Cloud3 = styled.img`
 position: absolute;
 width: 183px;
 height: 120px;
-left: 211px;
+left: 150px;
 top: 52px;
 
 `
@@ -47,7 +47,7 @@ const Cloud4 = styled.img`
 position: absolute;
 width: 389px;
 height: 117px;
-left: 1200px;
+left: 1125px;
 top: 20px;
 `
 const Cloud5 = styled.img`
