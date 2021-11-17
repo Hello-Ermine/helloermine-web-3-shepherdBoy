@@ -15,10 +15,16 @@ body {
   grid-gap: 10px;
   padding: 10px;
 }
-#wolff{
-  padding-left: 5%;
- 
-  z-index: 99;
+.wolf{
+  padding-left: 15%;
+  position: absolute;
+  bottom: 50%;
+}
+.wolf:hover + .sheep{
+
+  filter: drop-shadow(1px 2px 20px #FDC401);
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 
