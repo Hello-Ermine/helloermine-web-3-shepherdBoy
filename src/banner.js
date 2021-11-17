@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import './banner.css' ;
-import lg from'./lg1.png';
+import './banner.css';
+import lg from './lg1.png';
 import cloud1 from './cloud1.png';
 import cloud2 from './cloud2.png';
 import cloud3 from './cloud3.png';
@@ -62,17 +62,17 @@ bottom: -11.07%;
 
 
 
-function banner(){
-    return(
-        <div className="banner">
+function banner() {
+    return (
+        <div className="banner" style={{ margin: 0 }}>
             <Logo src={lg} />
-            <Cloud1 src={cloud1}  />
-            <Cloud2 src={cloud2}  />
-            <Cloud3 src={cloud3}  />
-            <Cloud4 src={cloud4}  />
-            <Cloud5 src={cloud5}  />
+            <Cloud1 src={cloud1} />
+            <Cloud2 src={cloud2} />
+            <Cloud3 src={cloud3} />
+            <Cloud4 src={cloud4} />
+            <Cloud5 src={cloud5} />
         </div>
-        
+
     );
 }
 

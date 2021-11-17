@@ -1,24 +1,22 @@
 /* main container */
 
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
   padding: 0px;
   margin: 0;
   overflow-x: hidden;
-
 }
-.sheep{
+.sheep {
   display: grid;
   grid-template-columns: 150px 150px 150px 150px 150px;
   grid-gap: 10px;
   padding: 10px;
 }
-.Wolff{
+.Wolff {
   padding-left: 10%;
 }
-
 
 .container {
   top: 860%;
@@ -28,8 +26,6 @@ body {
   position: absolute;
   left: 30%;
   z-index: 99;
-  
- 
 }
 .grid-container {
   display: grid;
@@ -37,7 +33,7 @@ body {
 }
 
 .loader {
-  top: 800%;
+  top: 825%;
   text-align: center;
   z-index: -1;
   position: absolute;

@@ -1,7 +1,7 @@
 import bg1 from './bg1.png'
 import sleep2 from './sleep2.png'
-import styled from  'styled-components' ;
-import Wood1 from  './wood1.png'
+import styled from 'styled-components';
+import Wood1 from './wood1.png'
 
 
 
@@ -41,22 +41,22 @@ const Wood = styled.div`
 
 
 
-function Pageone(){
-    return(
-     <div id="story">   
-    <Sleep src={sleep2}  />
-    
+function Pageone() {
+    return (
+        <div id="story" style={{ margin: 0 }}>
+            <Sleep src={sleep2} />
 
-    <Page bg={bg1} height="122vh">
-    <Wood wood={Wood1}>
-        <h1>Once upon a time, there was once a young Shepherd Boy who tended his sheep at the foot of a mountain near a dark forest. It was rather lonely for him all day,so he thought upon a plan by which he could get a little company and some excitement.</h1>
-    </Wood>
-        </Page>
 
-    
-       </div>
+            <Page bg={bg1} height="122vh">
+                <Wood wood={Wood1}>
+                    <h1>Once upon a time, there was once a young Shepherd Boy who tended his sheep at the foot of a mountain near a dark forest. It was rather lonely for him all day,so he thought upon a plan by which he could get a little company and some excitement.</h1>
+                </Wood>
+            </Page>
 
-  
+
+        </div>
+
+
     );
 }
 
