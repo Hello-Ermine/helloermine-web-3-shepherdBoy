@@ -36,12 +36,12 @@ function Pageseven(){
             <div className="sheep"> 
             {sheeps}
             </div>
-             <div className="wolff">
+             <div>
              <img
                src={Wolf}
                style={{ display: 'fixed', width: '150px', cursor: 'pointer' }}
                onClick={handleDelete}
-               alt="Wolf"
+               alt="Wolf" id="wolff"
              />
              </div>
        
