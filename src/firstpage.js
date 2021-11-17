@@ -58,11 +58,6 @@ function Pageone() {
                 </Wood>
             </Page>
 
-            <Page bg={bg1} height="122vh">
-                <Wood wood={Wood1}>
-                    <h1>Once upon a time, there was once a young Shepherd Boy who tended his sheep at the foot of a mountain near a dark forest. It was rather lonely for him all day,so he thought upon a plan by which he could get a little company and some excitement.</h1>
-                </Wood>
-            </Page>
 
 
         </div >

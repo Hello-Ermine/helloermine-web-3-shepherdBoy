@@ -12,8 +12,8 @@ import './twopage.css'
 
 const Girlone = styled.img`
 position: absolute;
-top: 263%;
-left: 360px;
+top: 259%;
+left: 365px;
 width:300px; 
 height:300px;
 `
@@ -26,17 +26,17 @@ left: 656px;
 `
 const Boyone = styled.img`
 position: absolute;
-top: 250%;
+top: 245%;
 width: 383px;
 height: 418px;
-left: 200px;
+left: 220px;
 `
 const Boythree = styled.img`
 position: absolute;
-top: 253%;
+top: 255%;
 width: 305px;
 height: 305px;
-left: 461px;
+left: 448px;
 `
 const Woodtwo = styled.div`
  background-image: ${props => `url(${props.wood})`};
