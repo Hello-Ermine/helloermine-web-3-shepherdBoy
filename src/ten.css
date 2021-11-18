@@ -4,16 +4,20 @@
   height: 120vh;
   background-color: #a5dae2;
   position: relative;
-
   z-index: -1;
   background-position: center bottom;
   padding: 0;
   margin: 0;
 }
+@font-face {
+  font-family:Bunblegum;
+  src: url(./Bubblegum.ttf);
+  font-weight: bold;
+}
 h1 {
   padding: 5%;
 
-  font-family: 'Balsamiq Sans', cursive;
+  font-family:Bunblegum;
   text-shadow: 1px 2px 8px black;
   margin: 0;
   text-align: center;
@@ -74,9 +78,19 @@ h1 {
 }
 
 h3,h2{
-  font-family: 'Balsamiq Sans', cursive;
+  font-family:Bunblegum;
+ 
 
 }
+h3{
+  font-size: 28px;
+  color: #E25142;
+}
+h2{
+  
+  color: #E25142;
+}
+
 .aomsin:hover{
   filter: drop-shadow(1px 2px 20px #FDC401);
     cursor: pointer;

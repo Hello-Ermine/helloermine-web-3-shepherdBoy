@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap');
 ul {
   display: flex;
   justify-content: space-around;
@@ -9,11 +10,12 @@ ul {
   position: fixed;
   width: 100%;
   z-index: 100;
+ 
 }
 
 li {
   /* float: right;*/
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family:Bunblegum;
   font-size: 1.5em;
   text-align: center;
 }
@@ -40,4 +42,10 @@ li {
   font-size: 32.1px;
   text-decoration: none;
   color: #c28e57;
+}
+
+@font-face {
+  font-family:Bunblegum;
+  src: url(./Bubblegum.ttf);
+  font-weight: bold;
 }
