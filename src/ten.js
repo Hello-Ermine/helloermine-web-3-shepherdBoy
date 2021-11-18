@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+
 import './ten.css'
 import fence from './fencegroup.png'
 import aomsin from './aomsin.png'
@@ -7,7 +7,7 @@ import fah from './fah.png'
 import bom from './bom.png'
 import boat from './boat.png'
 import toey from './toey.png'
-import shepmember from './shepmember.png'
+
 
 
 const pageTen2 = () => {
@@ -17,7 +17,7 @@ const pageTen2 = () => {
                 <h1> Member </h1>
             </div>
             <div id="gridthing" style={{ display: "grid", width: "97vw" }}  >
-               <a href="https://www.instagram.com/chatzsin/" target="_blank"> <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
+                <a href="https://www.instagram.com/chatzsin/" target="_blank"> <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
                     <h3> AOMSIN </h3>
                     <img src={aomsin} style={{ objectFit: "cover", width: "100%" }} className="aomsin" />
                     <h2 className="subText" > WEB DESIGN </h2>
@@ -29,23 +29,23 @@ const pageTen2 = () => {
                 </div></a>
                 <a href="https://www.instagram.com/_fxaxhx/" target="_blank"> <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
                     <h3> FAH </h3>
-                    <img src={fah} style={{ objectFit: "cover", width: "100%" }}  className="fah"/>
+                    <img src={fah} style={{ objectFit: "cover", width: "100%" }} className="fah" />
                     <h2 className="subText"> FRONT END </h2>
                 </div></a>
                 <a href="https://www.instagram.com/balalombie_/" target="_blank"> <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
                     <h3> BOM </h3>
-                    <img  a href =""src={bom} style={{ objectFit: "cover", width: "100%" }}  className="bom"/>
-                    
+                    <img a href="" src={bom} style={{ objectFit: "cover", width: "100%" }} className="bom" />
+
                     <h2 className="subText"> FRONT END </h2>
                 </div></a>
                 <a href="https://www.instagram.com/uuuuuu_ou/" target="_blank"> <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
                     <h3> BOAT </h3>
-                    <img src={boat} style={{ objectFit: "cover", width: "100%" }} className="boat"/>
+                    <img src={boat} style={{ objectFit: "cover", width: "100%" }} className="boat" />
                     <h2 className="subText"> FRONT END </h2>
                 </div></a>
                 <a href="https://www.instagram.com/nakatnan/" target="_blank">  <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
                     <h3> TOEY </h3>
-                    <img src={toey} style={{ objectFit: "cover", width: "100%" }}  className="toey"/>
+                    <img src={toey} style={{ objectFit: "cover", width: "100%" }} className="toey" />
                     <h2 className="subText"> INFRASTRUCTURE </h2>
                 </div></a>
             </div>
@@ -53,7 +53,7 @@ const pageTen2 = () => {
                 <img src={fence} />
                 <img src={fence} />
                 <img src={fence} />
-                
+
             </div>
         </div>
     )
