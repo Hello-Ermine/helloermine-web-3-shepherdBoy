@@ -1,9 +1,7 @@
-.banner{
-    background: linear-gradient(#92d6e1 0%, #009AB2 0%, #84cdda 100%);
-    width: 100vw;
-    height: 40vh;
-    margin: 0;
-    position: relative;
-    
+.banner {
+  background: linear-gradient(#92d6e1 0%, #009ab2 0%, #75d1e0 100%);
+  width: 100vw;
+  height: 40vh;
+  margin: 0;
+  position: relative;
 }
-
