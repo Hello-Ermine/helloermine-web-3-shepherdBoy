@@ -9,15 +9,11 @@ import NavBarLink from './NavBarLink'
 function Navbar() {
 
 
-  // useEffect(() => {
-  //   console.log(path)
-  // }, [path])
-
   return (
     <div className="navbar">
-    
 
-    
+
+
       <ul>
         {/* <li style={{ padding: "14px 16px" }} ><a onMouseEnter={() => setishover(true)} onMouseLeave={() => setishover(false)} className={ishover ? 'bg-active' : 'bg'} href="#member">Member</a></li> */}
         <NavBarLink href="#member" isactive={false} > Member </NavBarLink>
@@ -26,9 +22,9 @@ function Navbar() {
 
         {/* <li><a href="#story">Story</a></li>
         <li><a href="#moral">Moral</a></li> */}
-       
+
       </ul>
-     
+
       <div style={{ height: 64, width: "100%" }}></div>
 
     </div>
