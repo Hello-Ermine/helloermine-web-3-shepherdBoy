@@ -1,4 +1,4 @@
-import styled from  'styled-components' ;
+import styled from 'styled-components';
 import './nine.css'
 import moral from './moral.png'
 import boy2 from './boy2.3.png';
@@ -18,23 +18,24 @@ position: absolute;
 top: 47%;
 width: 500px;
 height: 500px;
-left: 10%;
+right: 200px;
 
 `
 
-function Pagenine(){
-    return(
-        
+function Pagenine() {
+    return (
+
         <div className="contain2" id="moral">
-        <Moral src={moral}/>
-        <Boytwo src={boy2}/>
-       <div className="moral">
-       
+            <div data-aos="zoom-in">
+                <Moral src={moral} />
+                <Boytwo src={boy2} />
+                <div className="moral">
+                </div>
+            </div>
         </div>
-        </div>
- 
+
     )
- 
- 
- }
- export default Pagenine
+
+
+}
+export default Pagenine

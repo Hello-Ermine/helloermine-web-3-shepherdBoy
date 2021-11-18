@@ -7,55 +7,85 @@ import fah from './fah.png'
 import bom from './bom.png'
 import boat from './boat.png'
 import toey from './toey.png'
+import Profile from './Profile'
 
 
 
 const pageTen2 = () => {
     return (
-        <div id="member" style={{ width: "100vw", minHeight: "100vh", display: "flex", flexDirection: "column", alignItems: "center", background: "#A5DAE2", justifyContent: "space-between" }} >
-            <div>
+        <div
+            id="member"
+            style={{
+                width: "100vw",
+                minHeight: "100vh",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                background: "#A5DAE2",
+                justifyContent: "space-between",
+            }}
+        >
+            <div data-aos="fade-up" data-aos-duration="3000">
                 <h1> Member </h1>
             </div>
-            <div id="gridthing" style={{ display: "grid", width: "97vw" }}  >
-                <a href="https://www.instagram.com/chatzsin/" target="_blank"> <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
-                    <h3> AOMSIN </h3>
-                    <img src={aomsin} style={{ objectFit: "cover", width: "100%" }} className="aomsin" />
-                    <h2 className="subText" > WEB DESIGN </h2>
-                </div></a>
-                <a href="https://www.instagram.com/cchabarr/" target="_blank"><div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
-                    <h3> GIFT </h3>
-                    <img src={gift} style={{ objectFit: "cover", width: "100%" }} className="gift" />
-                    <h2 className="subText" > WEB DESIGN </h2>
-                </div></a>
-                <a href="https://www.instagram.com/_fxaxhx/" target="_blank"> <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
-                    <h3> FAH </h3>
-                    <img src={fah} style={{ objectFit: "cover", width: "100%" }} className="fah" />
-                    <h2 className="subText"> FRONT END </h2>
-                </div></a>
-                <a href="https://www.instagram.com/balalombie_/" target="_blank"> <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
-                    <h3> BOM </h3>
-                    <img a href="" src={bom} style={{ objectFit: "cover", width: "100%" }} className="bom" />
-
-                    <h2 className="subText"> FRONT END </h2>
-                </div></a>
-                <a href="https://www.instagram.com/uuuuuu_ou/" target="_blank"> <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
-                    <h3> BOAT </h3>
-                    <img src={boat} style={{ objectFit: "cover", width: "100%" }} className="boat" />
-                    <h2 className="subText"> FRONT END </h2>
-                </div></a>
-                <a href="https://www.instagram.com/nakatnan/" target="_blank">  <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
-                    <h3> TOEY </h3>
-                    <img src={toey} style={{ objectFit: "cover", width: "100%" }} className="toey" />
-                    <h2 className="subText"> INFRASTRUCTURE </h2>
-                </div></a>
+            <div id="gridthing" style={{ display: "grid", width: "97vw" }}>
+                <Profile
+                    name="AOMSIN"
+                    image={aomsin}
+                    role="WEB DESIGN"
+                    aos="fade-up"
+                    link="https://www.instagram.com/chatzsin/"
+                />
+                <Profile
+                    name="GIFT"
+                    image={gift}
+                    role="WEB DESIGN"
+                    aos="fade-down"
+                    link="https://www.instagram.com/cchabarr/"
+                />
+                <Profile
+                    name="FAH"
+                    image={fah}
+                    aos="fade-up"
+                    role="FRONT END"
+                    link="https://www.instagram.com/_fxaxhx/"
+                />
+                <Profile
+                    name="BOM"
+                    image={bom}
+                    aos="fade-down"
+                    role="FRONT END"
+                    link="https://www.instagram.com/balalombie_/"
+                />
+                <Profile
+                    name="BOAT"
+                    image={boat}
+                    aos="fade-up"
+                    role="FRONT END"
+                    link="https://www.instagram.com/uuuuuu_ou/"
+                />
+                <Profile
+                    name="TOEY"
+                    image={toey}
+                    aos="fade-down"
+                    role="Infrastructure"
+                    link="https://www.instagram.com/nakatnan/"
+                />
             </div>
-            <div style={{ width: "100vw", height: "200px", overflow: "hidden", display: "flex", alignItems: "flex-end" }} >
+            <div
+                style={{
+                    width: "100vw",
+                    height: "200px",
+                    overflow: "hidden",
+                    display: "flex",
+                    alignItems: "flex-end",
+                }}
+            >
                 <img src={fence} />
                 <img src={fence} />
                 <img src={fence} />
-
             </div>
         </div>
-    )
+    );
 }
 export default pageTen2

@@ -58,7 +58,7 @@ function Pagesix() {
             <Boytwo src={boy2} />
 
             <Page bg={bg6} height="130vh">
-                <Woodsix wood={Wood6}>
+                <Woodsix wood={Wood6} data-aos="fade-right">
                     <h1 id="s6">The boy of course cried out wolf, wolf” still louder than before but the villagers, who had fooled twice before, thought the boy was again deceiving them, and nobody stirred to come to his help.</h1>
                 </Woodsix>
             </Page>

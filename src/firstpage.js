@@ -3,7 +3,9 @@ import sleep2 from './sleep2.png'
 import styled from 'styled-components';
 import Wood1 from './wood1.png'
 import './firstpage.css'
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 
 
@@ -49,12 +51,17 @@ const Wood = styled.div`
 
 
 function Pageone() {
+    useEffect(() => {
+        AOS.init({
+            duration: 2000
+        });
+        AOS.refresh()
+    }, []);
     return (
         <div id="story" style={{ margin: 0 }}>
             <Sleep src={sleep2} />
-
             <Page bg={bg1} height="130vh">
-                <Wood wood={Wood1}>
+                <Wood wood={Wood1} data-aos="fade-left">
                     <h1 id="s1">Once upon a time, there was once a young Shepherd Boy who tended his sheep at the foot of a mountain near a dark forest. It was rather lonely for him all day,so he thought upon a plan by which he could get a little company and some excitement.</h1>
                 </Wood>
             </Page>

@@ -1,4 +1,4 @@
-import styled from  'styled-components' ;
+import styled from 'styled-components';
 import { Page } from './firstpage';
 import page2 from './page2.jpg';
 import boy1 from './boy1.png';
@@ -9,6 +9,7 @@ import Wood2 from './wood2.png';
 import Wolfeat1 from './wolfeat1.png';
 import Table1 from './table1.png';
 import './twopage.css'
+
 
 const Girlone = styled.img`
 position: absolute;
@@ -66,24 +67,25 @@ left: 820px;
 
 `
 
-function Pagetwo(){
-    return(
-     <div>   
-      <Boyone src={boy1}/>
-      <Boytwo src={boy2}/>
-      <Boythree src={boy3}/>
-      <Girlone src={girl1}/>
-      <Tableone src={Table1}/>
-      <Wolfeatone src={Wolfeat1}/>
-     
-    <Page bg={page2} height="130vh" >
+function Pagetwo() {
+  return (
+    <div>
+      <Boyone src={boy1} />
+      <Boytwo src={boy2} />
+      <Boythree src={boy3} />
+      <Girlone src={girl1} />
+      <Tableone src={Table1} data-aos="fade-up-left" />
+      <Wolfeatone src={Wolfeat1} data-aos="fade-up-left" />
 
-    <Woodtwo wood={Wood2}>
-            <h1 id="s2">He rushed down towards the village calling out Wolf, Wolf</h1>
+      <Page bg={page2} height="130vh" >
+
+        <Woodtwo wood={Wood2} data-aos="fade-down-left">
+          <h1 id="s2">He rushed down towards the village calling out Wolf, Wolf</h1>
         </Woodtwo>
-          </Page>
-       </div>
-    );
+
+      </Page>
+    </div>
+  );
 }
 
 export default Pagetwo

@@ -7,6 +7,9 @@ import Sheep from './sheepp.png'
 import Wolf from './wolf.png'
 import Firstpage from './firstpage'
 import Navbar from './nav.js';
+import AOS from 'aos';
+import "aos/dist/aos.css";
+
 
 
 /*import bg1 from './bg1.png'
@@ -29,6 +32,15 @@ export default function App() {
     setSheeps(newsheep)
   }, [])
 
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+      once: false,
+      mirror: true
+    });
+    AOS.refresh()
+  }, []);
+
   function handleClick() {
     let newSheeps = [...sheeps, <img src={Sheep} style={{ width: '50px' }} alt="sheep" />]
     setSheeps(newSheeps)
@@ -46,8 +58,8 @@ export default function App() {
 
     <div className="App">
 
-      <Navbar/>
-     <Firstpage/>
+      <Navbar />
+      <Firstpage />
 
 
       <Firstpage />

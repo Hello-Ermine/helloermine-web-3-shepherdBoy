@@ -89,35 +89,16 @@ h2 {
   color: #e25142;
 }
 
-.aomsin:hover {
+.member:hover {
   filter: drop-shadow(1px 2px 20px #fdc401);
   cursor: pointer;
   transition: 0.3s;
 }
-.gift:hover {
-  filter: drop-shadow(1px 2px 20px #fdc401);
-  cursor: pointer;
-  transition: 0.3s;
+.onhold {
+  transform: scale(1);
 }
-.fah:hover {
-  filter: drop-shadow(1px 2px 20px #fdc401);
-  cursor: pointer;
-  transition: 0.3s;
-}
-.bom:hover {
-  filter: drop-shadow(1px 2px 20px #fdc401);
-  cursor: pointer;
-  transition: 0.3s;
-}
-.boat:hover {
-  filter: drop-shadow(1px 2px 20px #fdc401);
-  cursor: pointer;
-  transition: 0.3s;
-}
-.toey:hover {
-  filter: drop-shadow(1px 2px 20px #fdc401);
-  cursor: pointer;
-  transition: 0.3s;
+.onhold:hover {
+  transform: scale(1.2);
 }
 
 #gridthing a {

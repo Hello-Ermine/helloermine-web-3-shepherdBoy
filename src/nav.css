@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap");
 ul {
   display: flex;
   justify-content: space-around;
@@ -11,12 +11,11 @@ ul {
   width: 100%;
   z-index: 100;
   height: 64px;
- 
 }
 
 li {
   /* float: right;*/
-  font-family:Bunblegum;
+  font-family: Bunblegum;
   font-size: 1.5em;
   text-align: center;
 }
@@ -46,7 +45,7 @@ li {
 }
 
 @font-face {
-  font-family:Bunblegum;
+  font-family: Bunblegum;
   src: url(./Bubblegum.ttf);
   font-weight: bold;
 }
