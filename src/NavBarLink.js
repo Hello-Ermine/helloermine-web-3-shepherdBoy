@@ -1,6 +1,6 @@
-import React, { Component, useEffect, useState } from 'react';
-const NavBarLink = ({ href, childrenavigator, isactive, children }) => {
-    const [ishover, setishover] = useState(isactive || false);
+import React, { useEffect, useState } from 'react';
+const NavBarLink = ({ href, children }) => {
+    const [ishover, setishover] = useState(false);
     const [isnow, setisnow] = useState(false)
     const listenToPopstate = () => {
         const winPath = window.location.hash;
@@ -18,7 +18,8 @@ const NavBarLink = ({ href, childrenavigator, isactive, children }) => {
     }, []);
 
     return (
-        <li style={{ padding: "14px 16px" }} onMouseEnter={isactive ? () => { } : () => setishover(true)} onMouseLeave={isactive ? () => { } : () => setishover(false)} >
+        <li style={{ padding: "14px 16px" }} onMouseEnter={() => setishover(true)}
+            onMouseLeave={() => setishover(false)} >
             <a className={isnow ? 'bg-isonselected' : ishover ? 'bg-active' : 'bg'} href={href}>{children}</a>
         </li>
     )

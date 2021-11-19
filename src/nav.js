@@ -1,10 +1,6 @@
-import React, { Component, useEffect, useState } from 'react';
+import React from 'react';
 import './nav.css'
 import NavBarLink from './NavBarLink'
-
-
-
-
 
 function Navbar() {
 
@@ -15,13 +11,10 @@ function Navbar() {
 
 
       <ul>
-        {/* <li style={{ padding: "14px 16px" }} ><a onMouseEnter={() => setishover(true)} onMouseLeave={() => setishover(false)} className={ishover ? 'bg-active' : 'bg'} href="#member">Member</a></li> */}
-        <NavBarLink href="#member" isactive={false} > Member </NavBarLink>
-        <NavBarLink href="#story" isactive={false} > Story </NavBarLink>
-        <NavBarLink href="#moral" isactive={false} > Moral </NavBarLink>
 
-        {/* <li><a href="#story">Story</a></li>
-        <li><a href="#moral">Moral</a></li> */}
+        <NavBarLink href="#member" > Member </NavBarLink>
+        <NavBarLink href="#story" > Story </NavBarLink>
+        <NavBarLink href="#moral" > Moral </NavBarLink>
 
       </ul>
 
