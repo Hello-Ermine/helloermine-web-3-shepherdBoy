@@ -10,7 +10,7 @@ function Navbar() {
 
 
   return (
-    <div className="navbar">
+    <div className="navthing">
 
 
 

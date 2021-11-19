@@ -25,6 +25,9 @@ li {
   font-size: 32px;
   color: white;
 }
+.navthing {
+  top: 0 !important;
+}
 
 .bg-active {
   text-decoration: none;
@@ -43,7 +46,9 @@ li {
   text-decoration: none;
   color: #c28e57;
 }
-
+.bg-isonselected:hover {
+  color: #c28e57 !important;
+}
 @font-face {
   font-family: Bunblegum;
   src: url(./Bubblegum.ttf);
