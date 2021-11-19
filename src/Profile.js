@@ -5,14 +5,6 @@ import { Stack } from 'react-bootstrap'
 const Profile = ({ name, image, role, link, aos }) => {
     return (
         <a href={link} data-aos={aos} target="_blank" className="">
-            {/* <div
-                style={{
-                    width: "100%",
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "center",
-                }}
-            > */}
             <Stack
                 style={{
                     width: "100%",
@@ -31,7 +23,6 @@ const Profile = ({ name, image, role, link, aos }) => {
                     {role}
                 </h2>
             </Stack >
-            {/* </div> */}
         </a>
     );
 }
