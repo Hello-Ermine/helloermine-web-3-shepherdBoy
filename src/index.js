@@ -13,24 +13,24 @@ import Pagesix from './sixpage';
 import Pageseven from './sevenpage';
 import Pageeight from './eight'
 import Pagenine from './nine'
-import Pageten from './ten';
+import PageTen2 from './ten';
 import Banner from './banner';
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar/>
-    <Banner/>
-   <Firstpage/>
-    <Pagetwo/>
-    <Pagethree/>
-    <Pagefour/>
-    <Pagefive/>
-    <Pagesix/>
-    <Pageseven/>
-   
-    <Pagenine/>
-    <Pageten/>
+    <Navbar />
+    <Banner />
+    <Firstpage />
+    <Pagetwo />
+    <Pagethree />
+    <Pagefour />
+    <Pagefive />
+    <Pagesix />
+    <Pageseven />
+
+    <Pagenine />
+    <PageTen2 />
 
   </React.StrictMode>,
   document.getElementById('root')
