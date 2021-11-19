@@ -1,9 +1,19 @@
 import React from 'react'
 
+import { Stack } from 'react-bootstrap'
+
 const Profile = ({ name, image, role, link, aos }) => {
     return (
         <a href={link} data-aos={aos} target="_blank" className="">
-            <div
+            {/* <div
+                style={{
+                    width: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                }}
+            > */}
+            <Stack
                 style={{
                     width: "100%",
                     display: "flex",
@@ -20,7 +30,8 @@ const Profile = ({ name, image, role, link, aos }) => {
                 <h2 className="subText" >
                     {role}
                 </h2>
-            </div>
+            </Stack >
+            {/* </div> */}
         </a>
     );
 }
